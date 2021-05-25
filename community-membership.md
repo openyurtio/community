@@ -20,7 +20,7 @@ Members are continuously active contributors in the community. They can have iss
     - Contributing to community discussions (e.g. meetings, discussion group)
 - Sponsored by 2 reviewers
     - With no objections from other reviewers
-- Open an issue against the openyurtio/openyurt repository.
+- Open an issue against the openyurtio/community repository.
 
 ### Responsibilities and privileges
 
@@ -80,7 +80,7 @@ Maintainers are the first and foremost contributors that are committed to the su
     - Authoring and reviewing proposals
     - Initiating, contributing and resolving discussions (emails, GitHub issues, meetings)
     - Identifying subtle or complex issues in designs and implementation PRs
-- Open an issue against the openyurtio/openyurt repository and done through PR to update Maintainers file.
+- Open an issue against the openyurtio/community repository and done through PR to update Maintainers file.
 
 ### Responsibilities and privileges
 
