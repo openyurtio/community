@@ -42,3 +42,6 @@ We have also prepared a developer [guide](https://github.com/openyurtio/openyurt
 We encourage all contributors to become members. Learn more about requirements and responsibilities of membership in our [Community Membership doc](./community-membership.md).
 
 If you have made contributions that meet the requirements of becoming OpenYurt member, [simply file an issue](https://github.com/openyurtio/community/issues/new) to apply.
+
+## label instructions
+[label instructions](./label_instructions.md)
