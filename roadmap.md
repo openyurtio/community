@@ -13,8 +13,9 @@ This document outlines the development roadmap for the OpenYurt project.
 
 ## v0.5.0 Roadmap
 
-- Support IOT Device Management that comply with cloud native IOT API
+- Support IOT Device Management integrated with EdgeX Foundry that comply with cloud native IOT API
 - Support autonomy feature in node pool level.
-- Add local storage component for persisting edge workload data
+- Add local storage statics collection and report
 - Support edge workload scale automatically with nodePool setting 
-- Improve OpenYurt user experience
+- Improve OpenYurt user experience(create OpenYurt cluster and join OpenYurt node)
+- Support service to bound east-west traffic within a nodePool
