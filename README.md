@@ -19,6 +19,11 @@ Resources:
 
 - [2021 roadmap](./roadmap.md)
 
+## Governance
+
+In order to govern the subprojects more effectively, OpenYurt creates several Special Interest Groups (SIGs).
+The purpose of each SIG is to own and develop a set of subprojects, see the [sigs](./sig-list.md) for more details on these groups.
+
 ## Contact
 
 If you have any questions or want to contribute, you are welcome to communicate most things via GitHub issues or pull requests.
