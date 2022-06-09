@@ -22,11 +22,35 @@ The projects included in each SIG are shown in the figure below:
 * SIG Scalability is still under discussion.
 
 ### SIG Repos
-- DataPlane  
-[Raven](https://github.com/openyurtio/raven)  
-[YurtIngress](https://github.com/openyurtio/yurt-app-manager)  
-[Traffic Topology](https://github.com/openyurtio/openyurt/tree/master/pkg/yurthub/filter)  
+
+- ControlPlane
+
+[Yurt-Controller-Manager](https://github.com/openyurtio/openyurt/tree/master/cmd/yurt-controller-manager)
+
+[Yurthub](https://github.com/openyurtio/openyurt/tree/master/cmd/yurthub)
+
+[NodePool/YurtAppSet/YurtAppDaemon](https://github.com/openyurtio/yurt-app-manager)
+
+[InClusterConfig Support](https://github.com/openyurtio/openyurt/tree/master/pkg/yurthub/filter/masterservice)
+
+[Yurtadm](https://github.com/openyurtio/openyurt/tree/master/cmd/yurtadm)
+
+[E2E](https://github.com/openyurtio/openyurt/tree/master/test/e2e)
+
+[Yurt-Dashboard](https://github.com/openyurtio/yurt-dashboard)
+
+- DataPlane
+
+[Raven](https://github.com/openyurtio/raven)
+
+[YurtTunnel](https://github.com/openyurtio/openyurt/tree/master/pkg/yurttunnel)
+
+[YurtIngress](https://github.com/openyurtio/yurt-app-manager)
+
+[Traffic Topology](https://github.com/openyurtio/openyurt/tree/master/pkg/yurthub/filter/servicetopology)
+
 [Node Resource Manager](https://github.com/openyurtio/node-resource-manager)
+
 
 ### SIG Leaders
 
