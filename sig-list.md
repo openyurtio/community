@@ -51,6 +51,11 @@ The projects included in each SIG are shown in the figure below:
 
 [Node Resource Manager](https://github.com/openyurtio/node-resource-manager)
 
+- IoT
+
+[Yurt-Device-Controller](https://github.com/openyurtio/yurt-device-controller)
+
+[Yurt-Edgex-Manager](https://github.com/openyurtio/yurt-edgex-manager)
 
 ### SIG Leaders
 
