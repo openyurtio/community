@@ -1,21 +1,50 @@
 # Roadmap
 
-This document outlines the development roadmap for the OpenYurt project.
+This document outlines the development roadmap for the OpenYurt project. And the details of roadmap before 2023 is
+managed in `openyurtio/openyurt` repo, the link is here: https://github.com/openyurtio/openyurt/blob/master/docs/roadmap.md
 
-## v0.4.0 Roadmap(Release Plan: 2021.5)
+## 2023 Roadmap
 
-- Add Cloud Native IOT Device Management API definition.
-- Support manage configmap in node pool with unique setting.
-- Upgrade openyurt components to support Kubernetes 1.18.
-- Add basic Pod network recovery mechanism to handle edge node restarts.
-- Improve `YurtCtl` user experience.
-- Add minimal hardware requirement and system requirement info of OpenYurt.
+**SIG ControlPlane**
 
-## v0.5.0 Roadmap
+- openyurtio/openyurt repo:
 
-- Support IOT Device Management integrated with EdgeX Foundry that comply with cloud native IOT API
-- Support autonomy feature in node pool level.
-- Add local storage statics collection and report
-- Support edge workload scale automatically with nodePool setting 
-- Improve OpenYurt user experience(create OpenYurt cluster and join OpenYurt node)
-- Support service to bound east-west traffic within a nodePool
+  - yurt-manager
+    - move scattered controllers into yurt-controller-manager ([#1067](https://github.com/openyurtio/openyurt/issues/1067))
+    - support OTA and Auto upgrade model for static pod ([#1079](https://github.com/openyurtio/openyurt/issues/1079))
+    - YurtAppDaemon: support each nodePool can be configured independently
+
+  - yurthub
+    - install yurthub component on edge nodes depending on StaticPod cr resource ([#1080](https://github.com/openyurtio/openyurt/issues/1080))
+    - support filter chain to mutate response data in YurtHub [#1188](https://github.com/openyurtio/openyurt/issues/1188)
+    - support NodePort service isolated for specified nodePool [#1183](https://github.com/openyurtio/openyurt/issues/1183)
+
+  - pool-coordinator:
+    - support monitor or logs/exec nodePool resource when cloud-edge network off
+    - support share traffic in NodePool between cloud and edge for CRD resource
+    - support seamlessly break traffic to crashed instance when cloud-edge network off
+    - improve metrics/events/logs
+
+  - yurtadm
+    - support yurtadm init command based on sealer
+
+  - e2e
+    - combine yurtctl tool into e2e tool ([#1059](https://github.com/openyurtio/openyurt/issues/1059))
+    - support pool-coordinator
+    - support raven and remove yurt-tunnel
+
+  - beehive
+    - a new component for providing tenant isolation management, end user can join nodes can deploy workloads, but they can access or view their own resources.
+    - the new component will be hosted in openyurt repo.
+
+- openyurtio/yurt-dashboard repo
+
+    - support logs/exec pods on edge nodes from console
+    - support raven
+    - support pool-coordinator
+    - hope to have more than 100+ users to try OpenYurt experience center
+
+**SIG DataPlane**
+
+
+**SIG IoT**
