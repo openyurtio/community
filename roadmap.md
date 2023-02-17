@@ -46,5 +46,12 @@ managed in `openyurtio/openyurt` repo, the link is here: https://github.com/open
 
 **SIG DataPlane**
 
+- support SLB as public network exporter for gateway ([#22](https://github.com/openyurtio/raven/issues/22))
+- add reconciliation loop to check route entries and vpn connections periodically. ([#10](https://github.com/openyurtio/raven/issues/10))
+- [Raven-L7] Endpoints manager implementation ([#69](https://github.com/openyurtio/raven/issues/69))
+- [Raven-L7] Raven l7 proxy implementation ([#70](https://github.com/openyurtio/raven/issues/70))
+- [Raven-L7] DNS manager implementation ([#66](https://github.com/openyurtio/raven/issues/66))
+- [Raven-L7] Cert manager implementation ([#67](https://github.com/openyurtio/raven/issues/67))
+- support to use helm to deploy raven ([#73](https://github.com/openyurtio/raven/issues/73))
 
 **SIG IoT**
