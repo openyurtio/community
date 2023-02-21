@@ -55,3 +55,10 @@ managed in `openyurtio/openyurt` repo, the link is here: https://github.com/open
 - support to use helm to deploy raven ([#73](https://github.com/openyurtio/raven/issues/73))
 
 **SIG IoT**
+
+- release EdgeX-Auto-Collector to help support later EdgeX versions automatically ([#24](https://github.com/openyurtio/yurt-edgex-manager/issues/24))
+- add security component for EdgeX ([#13](https://github.com/openyurtio/yurt-edgex-manager/issues/13))
+- refactor yurt-edgex-manager to yurt-iot-manager ([#92](https://github.com/openyurtio/yurt-edgex-manager/issues/92))
+- provide a video analytical reference architecture and implementation based on OpenYurt + EdgeX + OpenVINO ([#33](https://github.com/openyurtio/yurt-device-controller/issues/33)) 
+- support other IoT platforms similar to EdgeX ([#93](https://github.com/openyurtio/yurt-edgex-manager/issues/93))
+- Yurt IoT Dataflow: provide dataflow orchestration framework to help better process IoT device data
