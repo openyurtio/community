@@ -10,44 +10,31 @@ SIGs' Goals are as following:
 
 ### SIGs List
 
-According to the current status of OpenYurt projects, initially we have launched 3 SIGs.
+According to the current status of OpenYurt projects, initially we have launched 4 SIGs.
 - ControlPlane
 - DataPlane
 - IoT
+- UI/CLI
 
 The projects included in each SIG are shown in the figure below:
 
 ![openyurt-sigs](docs/img/openyurt-sigs.png)
 
-* SIG Scalability is still under discussion.
-
 ### SIG Repos
 
 - ControlPlane
 
-[Yurt-Controller-Manager](https://github.com/openyurtio/openyurt/tree/master/cmd/yurt-controller-manager)
+[yurthub](https://github.com/openyurtio/openyurt/tree/master/cmd/yurthub)
 
-[Yurthub](https://github.com/openyurtio/openyurt/tree/master/cmd/yurthub)
-
-[NodePool/YurtAppSet/YurtAppDaemon](https://github.com/openyurtio/yurt-app-manager)
-
-[InClusterConfig Support](https://github.com/openyurtio/openyurt/tree/master/pkg/yurthub/filter/masterservice)
-
-[Yurtadm](https://github.com/openyurtio/openyurt/tree/master/cmd/yurtadm)
+[yurt-manager](https://github.com/openyurtio/openyurt/tree/master/cmd/yurt-manager)
 
 [E2E](https://github.com/openyurtio/openyurt/tree/master/test/e2e)
-
-[Yurt-Dashboard](https://github.com/openyurtio/yurt-dashboard)
 
 - DataPlane
 
 [Raven](https://github.com/openyurtio/raven)
 
-[YurtTunnel](https://github.com/openyurtio/openyurt/tree/master/pkg/yurttunnel)
-
-[YurtIngress](https://github.com/openyurtio/yurt-app-manager)
-
-[Traffic Topology](https://github.com/openyurtio/openyurt/tree/master/pkg/yurthub/filter/servicetopology)
+[Raven Controller Manager](https://github.com/openyurtio/openyurt/tree/master/pkg/controller/gateway)
 
 [Node Resource Manager](https://github.com/openyurtio/node-resource-manager)
 
@@ -57,11 +44,20 @@ The projects included in each SIG are shown in the figure below:
 
 [Yurt-Edgex-Manager](https://github.com/openyurtio/yurt-edgex-manager)
 
+- UI/CLI
+
+[Yurtadm](https://github.com/openyurtio/openyurt/tree/master/cmd/yurtadm)
+
+[Yurt-Dashboard](https://github.com/openyurtio/yurt-dashboard)
+
+[node servant](https://github.com/openyurtio/openyurt/tree/master/cmd/yurt-node-servant)
+
 ### SIG Leaders
 
-| SIG Name | Leaders | Meetings |
-| ---- | --------- | ----------- |
+| SIG Name         | Leaders                                                                                                                                                                                                                                      | Meetings |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ----------- |
 | [ControlPlane]() | * [rambohe-ch](https://github.com/rambohe-ch), alibaba<br>* [Congrool](https://github.com/Congrool), ZheJiang University <br>* [donychen](https://github.com/donychen1134), meituan <br>* [huiwq1990](https://github.com/huiwq1990), jdcloud | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
-| [DataPlane]() | * [BSWANG](https://github.com/BSWANG), alibaba<br>* [zzguang](https://github.com/zzguang), Intel<br>* [Cookie](https://github.com/luckymrwang), inspur<br>* [JameKeal](https://github.com/JameKeal), Sangfor | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
-| [IoT]() | * [lwmqwer](https://github.com/lwmqwer), VMware<br>* [gnunu](https://github.com/gnunu), Intel<br>* [wawlian](https://github.com/wawlian), alibaba | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
+| [DataPlane]()    | * [BSWANG](https://github.com/BSWANG), alibaba<br>* [zzguang](https://github.com/zzguang), Intel<br>* [Cookie](https://github.com/luckymrwang), inspur<br>* [JameKeal](https://github.com/JameKeal), Sangfor                                 | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
+| [IoT]()          | * [lwmqwer](https://github.com/lwmqwer), VMware<br>* [gnunu](https://github.com/gnunu), Intel<br>* [wawlian](https://github.com/wawlian), alibaba                                                                                            | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
+| [UI/CLI]()       | * [luc99hen](https://github.com/luc99hen), TongJi University<br>* [YTGhost](https://github.com/YTGhost), ZheJiang University                                                                                                                 | [APAC Friendly Community meeting](https://calendar.google.com/calendar/u/0?cid=c3VudDRtODc2Y2c3Ymk3anN0ZDdkbHViZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
 
