@@ -37,13 +37,6 @@ managed in `openyurtio/openyurt` repo, the link is here: https://github.com/open
     - a new component for providing tenant isolation management, end user can join nodes can deploy workloads, but they can access or view their own resources.
     - the new component will be hosted in openyurt repo.
 
-- openyurtio/yurt-dashboard repo
-
-    - support logs/exec pods on edge nodes from console
-    - support raven
-    - support pool-coordinator
-    - hope to have more than 100+ users to try OpenYurt experience center
-
 **SIG DataPlane**
 
 - support SLB as public network exporter for gateway ([#22](https://github.com/openyurtio/raven/issues/22))
@@ -62,3 +55,10 @@ managed in `openyurtio/openyurt` repo, the link is here: https://github.com/open
 - provide a video analytical reference architecture and implementation based on OpenYurt + EdgeX + OpenVINO ([#33](https://github.com/openyurtio/yurt-device-controller/issues/33)) 
 - support other IoT platforms similar to EdgeX ([#93](https://github.com/openyurtio/yurt-edgex-manager/issues/93))
 - Yurt IoT Dataflow: provide dataflow orchestration framework to help better process IoT device data
+
+**SIG UI/CLI**
+
+- automated installation and deployment platform based on dashboard ([#41](https://github.com/openyurtio/yurt-dashboard/issues/41)])
+- upgrade dashboard API to latest OpenYurt version ([#43](https://github.com/openyurtio/yurt-dashboard/issues/43))
+- support join node in specific nodepool ([#1380](https://github.com/openyurtio/openyurt/issues/1380))
+- provide --config option for yurtadm ([#1448](https://github.com/openyurtio/openyurt/issues/1448))
