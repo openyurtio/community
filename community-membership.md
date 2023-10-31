@@ -94,3 +94,28 @@ Maintainers are the first and foremost contributors that are committed to the su
 - Participate when called upon in the security release process. Note
   that although this should be a rare occurrence, if a serious vulnerability is found, the process
   may take up to several full days of work to implement.
+
+## Inactive members
+
+A core principle in maintaining a healthy community is encouraging active
+participation. It is inevitable that people's focuses will change over time, and
+they are not expected to be actively contributing forever.
+
+Therefore, members with an extended period away from the project with no activity
+will be removed from the OpenYurt GitHub Organizations and will be required to
+go through the org membership process again after re-familiarizing themselves
+with the current state.
+
+### How inactivity is measured
+
+Inactive members are defined as members of one of the OpenYurt Organizations
+with **no** contributions across any organization within **6 months**. This is
+measured by the CNCF [DevStats project].
+
+**Note:** DevStats does not take into account non-code contributions. If a
+non-code contributing member is accidentally removed this way, they may open an
+issue to quickly be re-instated.
+
+After an extended period away from the project with no activity,
+those members would need to re-familiarize themselves with the current state
+before being able to contribute effectively.
