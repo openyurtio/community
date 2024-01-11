@@ -23,6 +23,12 @@
 
 **SIG DataPlane**
 
+- add reconciliation loop to check route entries and vpn connections periodically. ([#10](https://github.com/openyurtio/raven/issues/10))
+- Path selection policy after Layer 3 NAT traversal is supported ([#143](https://github.com/openyurtio/raven/issues/143))
+- Develop a new seven-layer network proxy package to replace anp and remove the interceptor module to reduce the number of proxy hops ([#142](https://github.com/openyurtio/raven/issues/142))
+- Integrate raven into the openyurt repository ([#145](https://github.com/openyurtio/raven/issues/145))
+- Optimized the centre gateway election policy ([#146](https://github.com/openyurtio/raven/issues/146))
+- The observability of raven's cross-edge traffic ([#144](https://github.com/openyurtio/raven/issues/144))
 
 **SIG IoT**
 
