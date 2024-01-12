@@ -31,7 +31,15 @@
 - The observability of raven's cross-edge traffic ([#144](https://github.com/openyurtio/raven/issues/144))
 
 **SIG IoT**
-
+- To further optimize the iot experience, support the creation of device-services directly through deviceservice crd. ([#1749](https://github.com/openyurtio/openyurt/issues/1749))
+  - We want to make the use of the iot part even easier.
+- Provides multiple PlatformAdmin deployment based on the same namespace, and allows users to customize the configuration of a nodepool. ([#1597](https://github.com/openyurtio/openyurt/issues/1597))
+  - We gave users the ability to customize iot systems in [#1595](https://github.com/openyurtio/openyurt/issues/1595), but it's currently not isolated enough for nodepool.
+This is a very old need, refer to [multi edgex instance support](https://github.com/openyurtio/yurt-edgex-manager/issues/10). OpenYurt extends the concept of nodepools on top of k8s, so an ideal deployment is that users can configure each nodepool iot system independently. We can manipulate yurtappset to configure each nodepool individually. And service topology allows us to separate the traffic from each nodepool. With these two capabilities we can take a step closer to idealizing the current deployment model.
+- Make a practical solution for openyurt with camera management. ([#1798](https://github.com/openyurtio/openyurt/issues/1798))
+  - We already have a camera management practice combined with openvino, and we plan to organize it and publish it for user reference.
+- Use message-bus instead of REST to communicate with EdgeX. ([#1799](https://github.com/openyurtio/openyurt/issues/1799))
+  - This will significantly reduce the strain on the apiserver from the iot part and make subscription-based fetching of device data more convenient.
 
 **SIG UI/CLI**
 
