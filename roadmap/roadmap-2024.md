@@ -43,3 +43,22 @@ This is a very old need, refer to [multi edgex instance support](https://github.
 
 **SIG UI/CLI**
 
+**CLI**
+
+- Optimizing openyurt installation and deployment in e2e tests. [#1862](https://github.com/openyurtio/openyurt/issues/1862)
+- Integration of yurtadm with IoT, provide IoT-related query and operation capabilities.
+    - Get information about iot device commands via cli [#1802](https://github.com/openyurtio/openyurt/issues/1802)
+    - Check the data and status of the iot device via cli [#1803](https://github.com/openyurtio/openyurt/issues/1803)
+    - Add optional components for iot platformadmin via cli [1805](https://github.com/openyurtio/openyurt/issues/1805)
+- Optimize the process of node registration.
+    - yurtadm join supports installation of yurthub as system service [#1807](https://github.com/openyurtio/openyurt/issues/1807)
+- Compatible with higher versions of k8s.
+
+**Dashboard**
+
+- Enhance the web console's capability for automated installation and deployment according to the new deployment pattern of OpenYurt v1.4 [#41](https://github.com/openyurtio/yurt-dashboard/issues/41)
+- Integration of dashboard with IoT, provide Edgex Foundry management capabilities.
+- Enrich the capabilities of the console
+    - Management of multi-region workload/service/ingress
+    - Support delete/create resource
+    - Support node status monitor
